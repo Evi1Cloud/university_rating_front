@@ -8,7 +8,7 @@ const ParameterInput = ({ label, value, onChange }) => {
         type="text"
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        placeholder="Введите значения через запятую"
+        placeholder="Введите значение параметра"
       />
     </div>
   );

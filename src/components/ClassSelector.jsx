@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ClassSelector = ({ selectedClass, onSelect }) => {
-  const classes = ['Класс А', 'Класс Б', 'Класс В'];
+  const classes = ['Класс Б'];
 
   return (
     <div className="selector">

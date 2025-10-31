@@ -190,6 +190,51 @@ body {
   align-items: center;
 }
 
+
+.input-page-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.input-page-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header-actions {
+  margin-bottom: 20px;
+}
+
+.form-grid {
+  display: grid;
+  gap: 24px;
+}
+
+.section-title {
+  margin-bottom: 12px;
+}
+
+.parameters-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.btn-submit {
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
 .year-item {
   display: flex;
   align-items: center;

@@ -5,7 +5,6 @@ const Navbar = ({ activeTab }) => {
   const tabs = [
     { name: 'Ввод параметров', path: '/input' },
     { name: 'Анализ и визуализация', path: '/analysis' },
-    { name: 'История', path: '/history' },
   ];
 
   return (
